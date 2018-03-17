@@ -1,0 +1,5 @@
+## Interface: 70300
+## Title: ShieldSound
+## Notes: Replacing block sound with one from RFO
+
+core.lua

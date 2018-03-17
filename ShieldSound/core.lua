@@ -36,8 +36,9 @@ local function eventHandler(self, event, ...)
         glancing,
         crushing
                 = select(12, ...)
-      if (blocked>0) then -- "== 1" for clarity only.  Not needed.
+      if (blocked>0 and destName == UnitName("player")) then -- "== 1" for clarity only.  Not needed.
        -- PlaySoundFile("Sound\\Item\\Weapons\\Shields\\WoodenShieldBlock3.OGG","Master")
+       
         PlaySoundFile("Interface\\AddOns\\ShieldSound\\sound.mp3", "Master")
   end
 end

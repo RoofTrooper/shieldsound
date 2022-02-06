@@ -18,6 +18,6 @@ function f:COMBAT_LOG_EVENT_UNFILTERED(...)
   end
 
   if blocked and blocked > 0 and destGUID == playerGUID then
-    PlaySoundFile("Interface\\AddOns\\ShieldSound\\sound.mp3", "Master")
+    PlaySoundFile("Interface\\AddOns\\ShieldSound\\sound.mp3", "Ambience")
   end
 end
